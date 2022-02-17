@@ -1982,6 +1982,8 @@ right: 0;
 		position: absolute;
 		right: 7vw;
 		width: 250px;
+z-index:1000000000000000000;
+
 	}
 	header .contact-bar .contact .phone span{
 		opacity: 0;
