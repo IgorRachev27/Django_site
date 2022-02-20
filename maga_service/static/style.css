@@ -28,8 +28,9 @@ body
 	background: var(--black);
 	height: 100vh;
 	width: 100vw;
-	position: fixex;
-	z-index: 10000230002130209080890890890809;
+	position: relative;
+	z-index: 10000230002130209080890892220890809;
+	top: 0;
 
 }
 .loader{
@@ -41,6 +42,7 @@ body
 	border-radius: 50%;
 	background: linear-gradient(45deg, transparent, transparent 40%, var(--yellow));
 	animation: animate 2s linear infinite;
+	z-index: 122121292182981928192891282;
 
 }
 @keyframes animate{
@@ -1951,6 +1953,7 @@ right: 0;
 		transform: translateX(100vw);
 		background: var(--light-black);
 		transition: all 1s ease-in-out;
+		z-index: 657576576576567576;
 	}
 	.navigation.active{
 		transform: translateX(0vw);
