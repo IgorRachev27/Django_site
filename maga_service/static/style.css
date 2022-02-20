@@ -337,8 +337,9 @@ header .contact-bar .contact .phone .phone-code{
 	color: var(--yellow);
 	position: sticky;
 	top: 9vh;
-	transform: translate(90vw, -6vh);
+	transform: translate(85vw, -6vh);
 	width: 3vw;
+
 }
 
 .bg
@@ -1917,7 +1918,7 @@ right: 0;
 	}
 	.navigation .bx.bx-x{
 		display: flex;
-		right: 2vw;
+		right: 15vw;
 	}
 	.navigation li:hover 
 	{	
