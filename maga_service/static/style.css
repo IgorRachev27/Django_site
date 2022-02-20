@@ -17,7 +17,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	border: 1px solid red;
 }
 
 body
@@ -337,7 +336,7 @@ header .contact-bar .contact .phone .phone-code{
 	color: var(--yellow);
 	position: sticky;
 	top: 9vh;
-	transform: translate(85vw, -6vh);
+	transform: translate(90vw, -6vh);
 	width: 3vw;
 
 }
@@ -1986,7 +1985,7 @@ right: 0;
 	}
 	header .contact-bar .contact .phone{
 		position: absolute;
-		right: 4vw;
+		right: 7vw;
 		width: 250px;
 	}
 	header .contact-bar .contact .phone span{
@@ -2559,15 +2558,15 @@ right: 0;
 	header .contact-bar .contact .phone{
 		color: #fff;
 		font-weight: 600;
-		font-size: 1.1em;
+		font-size: 1.3em;
 		display: flex;
 		right: 0;
 	}
 
 	header .contact-bar .contact .phone i{
 
-		font-size: 1.7em;
-		right: 15vw;
+		font-size: 1.5em;
+		right: 20vw;
 	}
 	header .contact-bar .contact .phone .phone-code{
 		color: var(--yellow);
@@ -2627,5 +2626,15 @@ right: 0;
 	}
 	.google-maps .contacts table tr span{
 		font-size: 1.2em;
+	}
+	.bx.bx-menu{
+		display: flex;
+		font-size: 3em;
+		color: var(--yellow);
+		position: sticky;
+		top: 9vh;
+		transform: translate(85vw, -6vh);
+		width: 3vw;
+
 	}
 }
