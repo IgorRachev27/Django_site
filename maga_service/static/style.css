@@ -24,7 +24,61 @@ body
 	background: #fff;
 	overflow-x: hidden;
 }
+#preloader {
+	background: var(--black);
+	height: 100vh;
+	width: 100vw;
+	position: fixex;
+	z-index: 10000230002130209080890890890809;
 
+}
+.loader{
+	position: relative;
+	top: calc(50vh - 75px);
+	left: calc(50vw - 75px);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: linear-gradient(45deg, transparent, transparent 40%, var(--yellow));
+	animation: animate 2s linear infinite;
+
+}
+@keyframes animate{
+	0%
+	{
+		transform: rotate(0deg);
+		filter: hue-rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+		filter: hue-rotate(360deg);
+	}
+}
+
+.loader:before{
+	content: '';
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	right: 6px;
+	bottom: 6px;
+	background: var(--black);
+	border-radius: 50%;
+	z-index: 10000201032133;
+}
+.loader:after{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: linear-gradient(45deg, transparent, transparent 40%, var(--yellow));
+	border-radius: 50%;
+	z-index: 1;
+	filter: blur(30px);
+}
 header {
 	position: relative;
 	top: 0px;
@@ -1443,7 +1497,6 @@ footer .contact a img{
 /* ------------ gallery ------------ */
 .roof{
 	background-image: url('gallery_roof.jpg');
-
 	width: 100vw;
 	height: 28vh;
 	top: 0;
@@ -2658,4 +2711,7 @@ right: 0;
 	footer .logo{
 		display: none;
 	}
+	header .appointment.active{
+		width: 90vw;
+}
 }
