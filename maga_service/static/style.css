@@ -2499,9 +2499,16 @@ right: 0;
 		.service-list .card-container .card:nth-child(5) .service-text h2,
 		.service-list .card-container .card:nth-child(6) .service-text h2{
 
-	margin-top: 20px;
+	margin-top: 700px;
 }
-
+		.service-list .card-container .card:nth-child(1) .service-text p,
+		.service-list .card-container .card:nth-child(2) .service-text p,
+		.service-list .card-container .card:nth-child(3) .service-text p,
+		.service-list .card-container .card:nth-child(4) .service-text p,
+		.service-list .card-container .card:nth-child(5) .service-text p,
+		.service-list .card-container .card:nth-child(6) .service-text p{
+			z-index: 2133213
+		}
 
 
 
