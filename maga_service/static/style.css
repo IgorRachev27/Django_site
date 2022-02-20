@@ -233,6 +233,7 @@ header .contact-bar{
 	background: var(--black);
 	justify-content: center;
 	align-items: center;
+	z-index: 12232313123123132313;
 	
 }
 
@@ -2029,7 +2030,7 @@ right: 0;
 	.catalog .catalog-services{
 		position:	relative;
 		width: 44vw;
-		height: 60vh;
+		height: vh;
 		color: #fff;
 		font-size:2.2vw;
 		line-height: 1.5;
@@ -2409,15 +2410,16 @@ right: 0;
 		font-size: 3.5vw;
 		left: 5vw;
 		top: 5vw;
+		display: flex;
 	}
 	
 	.bg .p {
 		right: 3vw;
-		top: calc(9vw - 15px);
-		font-size: 1.2em;
+		top: 7vw;
+		font-size: 3vw;
 	}
 	.catalog {
-		height: 470px;
+		height: 500px;
 	}
 
 	.catalog.active{
@@ -2431,7 +2433,7 @@ right: 0;
 	.catalog .catalog-services{
 		position:	relative;
 		width: 70vw;
-		height: 380px;
+		height: 420px;
 		color: #fff;
 		font-size:16px;
 		line-height: 1.5;
@@ -2452,7 +2454,7 @@ right: 0;
 		display: block;
 
 		position: absolute;
-		top: 420px;
+		top: 430px;
 		left: -4vw;
 	}
 	.catalog .catalog-services.first{
@@ -2490,6 +2492,15 @@ right: 0;
 		width: 90vw;
 		height: 90vw;
 	}
+		.service-list .card-container .card:nth-child(1) .service-text h2,
+		.service-list .card-container .card:nth-child(2) .service-text h2,
+		.service-list .card-container .card:nth-child(3) .service-text h2,
+		.service-list .card-container .card:nth-child(4) .service-text h2,
+		.service-list .card-container .card:nth-child(5) .service-text h2,
+		.service-list .card-container .card:nth-child(6) .service-text h2{
+
+	margin-top: 20px;
+}
 
 
 
@@ -2636,5 +2647,8 @@ right: 0;
 		transform: translate(85vw, -6vh);
 		width: 3vw;
 
+	}
+	footer .logo{
+		display: none;
 	}
 }
