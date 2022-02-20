@@ -1985,6 +1985,8 @@ right: 0;
 		position: absolute;
 		right: 7vw;
 		width: 250px;
+z-index:1000000000000000000;
+
 	}
 	header .contact-bar .contact .phone span{
 		opacity: 0;
@@ -2541,6 +2543,7 @@ right: 0;
 		right: 10vw;
 		left: auto;
 	}
+<<<<<<< HEAD
 
 	/* ------------ end gallery ------------ */
 
@@ -2626,3 +2629,6 @@ right: 0;
 		font-size: 1.2em;
 	}
 }
+=======
+}
+>>>>>>> f304e2239469555958aa4158fa45714b0be131d0
