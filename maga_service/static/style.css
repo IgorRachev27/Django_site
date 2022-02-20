@@ -17,7 +17,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	border: 1px solid red;
 }
 
 body
@@ -282,7 +281,7 @@ header .appointment.active h2{
 
 header .contact-bar{
 	position: absolute;
-	width: 65vw;
+	width: 60vw;
 	height: 6vh;
 	right: 0;
 	top: 6vh;
@@ -298,14 +297,14 @@ header .contact-bar .contact {
 	position: absolute;
 	display: flex;
 	right: 2vw;
-	margin-top: 1vh;
+	margin-top: 0vh;
 }
 
 header .contact-bar .contact .phone-phrase{
 	color: #fff;
 	font-size: 1em;
 	margin-right: 1vw;
-	margin-top: 1vh;
+	margin-top: 2.5vh;
 }
 
 header .contact-bar .contact .phone{
@@ -313,6 +312,7 @@ header .contact-bar .contact .phone{
 	font-weight: 600;
 	font-size: 1.6em;
 	display: flex;
+	margin-top: 1vh;
 }
 
 header .contact-bar .contact .phone i{
@@ -324,7 +324,7 @@ header .contact-bar .contact .phone i{
 	color: var(--yellow);
 	position: absolute;
 	right: 7vw;
-	margin-top: 0.1em;
+	margin-top: 0em;
 }
 header .contact-bar .contact .phone .phone-code{
 	color: var(--yellow);
@@ -2037,6 +2037,10 @@ right: 0;
 	left: 45vw;
 	width: 100px;
 	flex-wrap: wrap;
+	line-height: 1.2em;
+	}
+	header .contact-bar{
+		width: 65vw;
 	}
 	header .contact-bar .contact .phone-phrase{
 		display: none;
