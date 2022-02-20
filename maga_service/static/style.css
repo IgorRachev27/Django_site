@@ -1917,6 +1917,7 @@ right: 0;
 	}
 	.navigation .bx.bx-x{
 		display: flex;
+		right: 2vw;
 	}
 	.navigation li:hover 
 	{	
