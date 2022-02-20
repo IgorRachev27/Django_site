@@ -17,6 +17,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	border: 1px solid red;
 }
 
 body
@@ -28,7 +29,7 @@ body
 	background: var(--black);
 	height: 100vh;
 	width: 100vw;
-	position: relative;
+	position: sticky;
 	z-index: 10000230002130209080890892220890809;
 	top: 0;
 
