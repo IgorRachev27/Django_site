@@ -17,6 +17,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	border: 1px solid red;
 }
 
 body
@@ -1762,8 +1763,8 @@ right: 0;
 }
 
 .img .swiper {
-  width: 50vh;
-  height: 65vh;
+  width: 380px;
+  height: 480px;
   position: relative;
   top: 15vh;
   left: 20vw;
@@ -2249,8 +2250,8 @@ right: 0;
 		font-style: italic;
 	}
 	.img .swiper {
-	  width: 57vw;
-	  height: 80vw;
+	  width: 56vw;
+	  height: 63vh;
 	  position: relative;
 	  top: 25vh;
 	  right: 0;
@@ -2302,7 +2303,7 @@ right: 0;
 	}
 	.show1 .video{
 		position: absolute;
-		width: 90vw;
+		width: 80vw;
 		display: flex;
 		right: auto;
 		top: 21vh;
@@ -2322,7 +2323,7 @@ right: 0;
 	}
 	#video{
 		position: absolute;
-		right: 30vw;
+		right: 20vw;
 		left: auto;
 	}
 	.show{
