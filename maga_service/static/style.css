@@ -17,7 +17,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	border: 1px solid red;
 }
 
 body
@@ -2250,8 +2249,8 @@ right: 0;
 		font-style: italic;
 	}
 	.img .swiper {
-	  width: 56vw;
-	  height: 63vh;
+	  width: 50vw;
+	  height: 50vh;
 	  position: relative;
 	  top: 25vh;
 	  right: 0;
