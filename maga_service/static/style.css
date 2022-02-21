@@ -1761,6 +1761,9 @@ right: 0;
 	font-style: italic;
 }
 
+.img{
+	overflow-x: hidden;
+}
 .img .swiper {
   width: 380px;
   height: 480px;
