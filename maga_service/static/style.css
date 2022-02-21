@@ -2249,11 +2249,11 @@ right: 0;
 		font-style: italic;
 	}
 	.img .swiper {
-	  width: 350px;
-	  height: 480px;
+	  width: 60vw;
+	  height: 60vh;
 	  position: relative;
 	  top: 25vh;
-	  left: calc(50vw - 175px);
+	  right: 0;
 	}		
 
 	.show1{
