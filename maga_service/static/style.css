@@ -2250,7 +2250,7 @@ right: 0;
 	}
 	.img .swiper {
 	  width: 60vw;
-	  height: 60vh;
+	  height: 80vw;
 	  position: relative;
 	  top: 25vh;
 	  right: 0;
@@ -2582,7 +2582,7 @@ s
 		height: 18vh;
 	}
 	.roof::before {
-		height:18vh;
+		height:20vh;
 	}
 	.roof .roof_text{
 		font-size: 1em;
