@@ -197,10 +197,12 @@ header .appointment.active{
 
 }
 .appointment h1{
+	width: 100%;
 	display: none;
 	position: absolute;
 	top: 1vh;
-	left: 100px;
+	left: 0;
+	text-align: center;
 
 }
 .appointment form{
@@ -2502,7 +2504,7 @@ right: 0;
 		overflow: auto;
 		margin-top: 1vh;
 		top: 80px;
-		transform: translateX(20vw);
+		transform: translateX(15vw);
 	}
 
 	
@@ -2560,7 +2562,7 @@ right: 0;
 		.service-list .card-container .card:nth-child(5) .service-text h2,
 		.service-list .card-container .card:nth-child(6) .service-text h2{
 
-	margin-top: 70px;
+	margin-top: 45px;
 }
 		.service-list .card-container .card:nth-child(1) .service-text p,
 		.service-list .card-container .card:nth-child(2) .service-text p,
