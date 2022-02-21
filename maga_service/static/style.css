@@ -1761,9 +1761,7 @@ right: 0;
 	font-style: italic;
 }
 
-.img{
-	overflow-x: hidden;
-}
+
 .img .swiper {
   width: 380px;
   height: 480px;
@@ -2251,12 +2249,17 @@ right: 0;
 		color: var(--black);
 		font-style: italic;
 	}
+	.img{
+		overflow-x: hidden;
+		width: 100vw;
+	}
 	.img .swiper {
-	  width: 60vw;
+	  width: 300px;
 	  height: 400px;
 	  position: relative;
 	  top: 25vh;
 	  right: 0;
+	  left: 0;
 	}		
 
 	.show1{
