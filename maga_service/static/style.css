@@ -964,16 +964,24 @@ header .contact-bar .contact .phone .phone-code{
 	left: calc(50vw - 185px);
 }
 .assignment3 h1{
+	position: relative;
 	width: 100%;
 	padding: 0 5%;
 	text-align: center;
-	margin: 0 2vh;
+	top: 1vh;
+	margin: 2vh 0vh;
+	color: var(--black);
 }
 .assignment3 p{
+	position: relative;
 	text-align: center;
-	width: 100%;
+	width: 80%;
 	padding: 0 5%;
+	left: 10%;
 	color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+	background: var(--light-gray);
 
 }
 .assignment3 .form-control{
@@ -985,20 +993,32 @@ header .contact-bar .contact .phone .phone-code{
 	left: calc(50% - 100px);
 }
 .assignment3 .error{
+	justify-content: center;
 	display: flex;
+	position:relative;
 	text-align: center;
-	margin-left: 10vw;
+	width: 80%;
 	color: red;
-	list-style-type: none;
-}
+	background: var(--light-gray);
+	border: 1px solid red;
+	border-radius: 5px;
+	margin: 1vh 0 2vh 10%;
 
+	overflow: hidden;
+}
+.assignment3 form p{
+	color: var(--black);
+	font-size: 1.2em;
+	border: none;
+	background: none;
+}
 .assignment3 form button{
 	position: relative;
-	width: 70px;
-	height: 30px;
+	width: 90px;
+	height: 40px;
 	border-radius: 5px;
 	background: var(--yellow);
-	left: calc(50% - 35px);
+	left: calc(50% - 45px);
 }
 .assignment3 form p{ 
 	font-size: 1.3em;
