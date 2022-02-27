@@ -25,6 +25,7 @@ urlpatterns = [
     path('', main_page, name= 'main_page'),
     path('thanks/', thanks, name = 'thanks_page'),
     path('gallery/', gallery, name = 'gallery'),
+    path('order/', order, name = 'order'),
 ]
 if DEBUG:
     urlpatterns = urlpatterns + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

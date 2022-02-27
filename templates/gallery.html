@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load static %}
+	{% block style %}
+   <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+	{% endblock %}
+{% block content %}
+<div class="roof">
+  <div class="roof_text"><p><span><a  href="{% url 'main_page' %}">Главная</a></span> | <span>Галерея</span></p></div>
+</div>
+<section class="gallery">
+  <div class="show0">
+    <div class="h">
+        <h1>В нашей работе мы...</h1>
+    </div>
+    <div class="arrow-down">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="show2">
+    
+
+     <div class="show_text">
+      <p>"Справляемся с любыми задачами"</p></div>
+    <div class="img">
+      <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide"><img src="{% static 'work7.jpeg' %}"></div>
+        <div class="swiper-slide"><img src="{% static 'work1.jpeg' %}"></div>
+        <div class="swiper-slide"><img src="{% static 'work2.jpeg' %}"></div>
+        <div class="swiper-slide"><img src="{% static 'work8.jpeg' %}"></div>
+        <div class="swiper-slide"><img src="{% static 'work4.jpeg' %}"></div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+<div class="show1">
+    <div class="show_text">
+      <p>"Внимательно подходим к каждой детали"</p>
+    </div>
+    <div class="video">
+    <video controls="true" preload='auto'><source src="{% static 'work video1.mp4' %}" type='video/mp4;'></video>
+    <video id="video" controls="true" preload='auto'><source src="{% static 'work video2.mp4' %}" type='video/mp4;'></video>
+    
+    </div>
+  </div>
+
+<div>
+  <div class="show">
+    <div class="video">
+    <video controls="true" preload='auto'><source src="{% static 'work video3.mp4' %}" type='video/mp4;'></video>
+    </div>
+    <div class="show_text">
+      <p> "Работаем на совесть"</p>
+    </div>
+    <div class='show-arrow'>
+    <div class="arrow-hover">
+    <div><p></p></div>
+    </div>
+    </div>
+    
+  </div>
+
+  
+</section>
+
+
+
+{% endblock %}
+
+{% block script %}
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
+    <script type="text/javascript">
+      function onEntry(entry) {
+  entry.forEach(change => {
+    if (change.isIntersecting) {
+     change.target.classList.add('element-show');
+    }
+  });
+}
+
+let options = {
+  threshold: [0.5] };
+let observer = new IntersectionObserver(onEntry, options);
+let elements = document.querySelectorAll('.show');
+let elements2 = document.querySelectorAll('.show2');
+let elements3 = document.querySelectorAll('.show1');
+let elements4 = document.querySelectorAll('.show0');
+for (let elm of elements) {
+  observer.observe(elm);
+}
+for (let elm2 of elements2) {
+  observer.observe(elm2);
+}
+for (let elm3 of elements3) {
+  observer.observe(elm3);
+}
+for (let elm4 of elements4) {
+  observer.observe(elm4);
+}
+    </script>
+{% endblock %}

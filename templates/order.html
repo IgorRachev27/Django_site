@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+	{% block style %}
+	{% endblock %}
+{% block content %}
+<div class="assignment3">
+   <h1>АвтоТехСервис</h1>
+   <p>Вы ввели некорректные данные, исправьте ошибки</p>
+   <form action="{% url 'thanks_page' %}" method="POST">{% csrf_token %}
+
+      <p>Имя:</p>{{ form2.order_name }}
+      <div class="error">{{ form2.order_name.errors }}</div>
+      <p>Телефон:</p>{{ form2.order_phone }}
+      <div class="error">{{ form2.order_phone.errors }}</div>
+      <p>Дата:</p>{{ form2.coming_date }}<br>
+      <div class="error">{{ form2.coming_date.errors }}</div>
+      <button type="submit">Записаться</button>
+   </form>
+</div>
+{% endblock %}
+
+{% block script %}
+    <script type="text/javascript">
+      function toggleAppointment()
+      {
+         const appointment = document.querySelector(".appointment");
+         appointment.classList.toggle('ac');
+      }
+   </script>
+{% endblock %}

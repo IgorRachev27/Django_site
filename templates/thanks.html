@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="order-success">
+    <h1>Заявка отправлена!</h1>
+    <p>С вами свяжется наш специалист</p>
+</div>
+{% endblock %}
+
+{% block script %}
+    <script type="text/javascript">
+		function toggleAppointment()
+		{
+			const appointment = document.querySelector(".appointment");
+			appointment.classList.toggle('ac');
+		}
+	</script>
+{% endblock %}
